@@ -1,0 +1,239 @@
+# depslib dependency file v1.0
+1636927954 source:/home/rootkiv/projects/new/main.cpp
+	<iostream>
+	"include/rplidar.h"
+	"include/rplidar_driver.h"
+	<unistd.h>
+
+1636919298 /home/rootkiv/projects/new/include/rplidar.h
+	<vector>
+	"hal/types.h"
+	"rplidar_protocol.h"
+	"rplidar_cmd.h"
+	"rplidar_driver.h"
+
+1636106922 /home/rootkiv/projects/new/src/hal/types.h
+	<stdint.h>
+
+1636106922 /home/rootkiv/projects/new/include/rplidar_protocol.h
+	"sl_lidar_protocol.h"
+
+1636106922 /home/rootkiv/projects/new/include/sl_lidar_protocol.h
+	"sl_types.h"
+
+1636106922 /home/rootkiv/projects/new/include/sl_types.h
+	<cstdint>
+	<stdint.h>
+
+1636106922 /home/rootkiv/projects/new/include/rplidar_cmd.h
+	"sl_lidar_cmd.h"
+	"rplidar_protocol.h"
+
+1636106922 /home/rootkiv/projects/new/include/sl_lidar_cmd.h
+	"sl_lidar_protocol.h"
+
+1636106922 /home/rootkiv/projects/new/include/rplidar_driver.h
+	"sl_lidar_driver.h"
+
+1636106922 /home/rootkiv/projects/new/include/sl_lidar_driver.h
+	<vector>
+	<map>
+	<string>
+	"sl_lidar_cmd.h"
+	<string>
+
+1636106922 source:/home/rootkiv/projects/new/src/rplidar_driver.cpp
+	"sdkcommon.h"
+	"hal/abs_rxtx.h"
+	"hal/thread.h"
+	"hal/types.h"
+	"hal/assert.h"
+	"hal/locker.h"
+	"hal/socket.h"
+	"hal/event.h"
+	"rplidar_driver.h"
+	"sl_crc.h"
+	<algorithm>
+
+1636106922 /home/rootkiv/projects/new/src/sdkcommon.h
+	"arch/win32/arch_win32.h"
+	"arch/macOS/arch_macOS.h"
+	"arch/linux/arch_linux.h"
+	"hal/types.h"
+	"hal/assert.h"
+	"rplidar.h"
+	"hal/util.h"
+
+1636106922 /home/rootkiv/projects/new/src/arch/win32/arch_win32.h
+	<stddef.h>
+	<stdio.h>
+	<windows.h>
+	<stdlib.h>
+	<process.h>
+	<direct.h>
+	"timer.h"
+
+1636106922 /home/rootkiv/projects/new/src/arch/win32/timer.h
+	"hal/types.h"
+
+1636106922 /home/rootkiv/projects/new/src/arch/macOS/arch_macOS.h
+	<stdio.h>
+	<stdint.h>
+	<string.h>
+	<stdlib.h>
+	<assert.h>
+	<math.h>
+	<time.h>
+	<stdarg.h>
+	<iostream>
+	<string>
+	<unistd.h>
+	<errno.h>
+	<pthread.h>
+	<sys/time.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<sys/ioctl.h>
+	<time.h>
+	"arch/macOS/timer.h"
+
+1636106922 /home/rootkiv/projects/new/src/hal/assert.h
+	<crtdbg.h>
+
+1636106922 /home/rootkiv/projects/new/src/arch/macOS/timer.h
+	"rptypes.h"
+	<unistd.h>
+
+1636106922 /home/rootkiv/projects/new/include/rptypes.h
+	<stdint.h>
+
+1636106922 /home/rootkiv/projects/new/src/arch/linux/arch_linux.h
+	<stdio.h>
+	<stdint.h>
+	<string.h>
+	<stdlib.h>
+	<assert.h>
+	<math.h>
+	<time.h>
+	<stdarg.h>
+	<iostream>
+	<string>
+	<unistd.h>
+	<errno.h>
+	<pthread.h>
+	<sys/time.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<sys/ioctl.h>
+	<sys/select.h>
+	<time.h>
+	"timer.h"
+
+1636106922 /home/rootkiv/projects/new/src/arch/linux/timer.h
+	"hal/types.h"
+	<unistd.h>
+
+1636106922 /home/rootkiv/projects/new/src/hal/util.h
+
+1636106922 /home/rootkiv/projects/new/src/hal/abs_rxtx.h
+	"hal/types.h"
+
+1636106922 /home/rootkiv/projects/new/src/hal/thread.h
+	"hal/types.h"
+
+1636106922 /home/rootkiv/projects/new/src/hal/locker.h
+
+1636106922 /home/rootkiv/projects/new/src/hal/socket.h
+	<vector>
+
+1636106922 /home/rootkiv/projects/new/src/hal/event.h
+
+1636106922 /home/rootkiv/projects/new/include/sl_crc.h
+	"sl_lidar_cmd.h"
+
+1636106922 source:/home/rootkiv/projects/new/src/sl_crc.cpp
+	"sl_crc.h"
+
+1636106922 source:/home/rootkiv/projects/new/src/sl_lidar_driver.cpp
+	"sdkcommon.h"
+	"hal/abs_rxtx.h"
+	"hal/thread.h"
+	"hal/types.h"
+	"hal/assert.h"
+	"hal/locker.h"
+	"hal/socket.h"
+	"hal/event.h"
+	"sl_lidar_driver.h"
+	"sl_crc.h"
+	<algorithm>
+
+1636106922 source:/home/rootkiv/projects/new/src/sl_serial_channel.cpp
+	"sl_lidar_driver.h"
+	"hal/abs_rxtx.h"
+	"hal/socket.h"
+
+1636106922 source:/home/rootkiv/projects/new/src/sl_tcp_channel.cpp
+	"sl_lidar_driver.h"
+	"hal/abs_rxtx.h"
+	"hal/socket.h"
+
+1636106922 source:/home/rootkiv/projects/new/src/sl_udp_channel.cpp
+	"sl_lidar_driver.h"
+	"hal/abs_rxtx.h"
+	"hal/socket.h"
+
+1636106922 source:/home/rootkiv/projects/new/src/arch/linux/net_serial.cpp
+	"arch/linux/arch_linux.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<unistd.h>
+	<assert.h>
+	<errno.h>
+	<fcntl.h>
+	<time.h>
+	"hal/types.h"
+	"arch/linux/net_serial.h"
+	<sys/select.h>
+	<algorithm>
+	<asm/ioctls.h>
+	<asm/termbits.h>
+	<sys/ioctl.h>
+	<termios.h>
+	<sys/ioctl.h>
+
+1636106922 /home/rootkiv/projects/new/src/arch/linux/net_serial.h
+	"hal/abs_rxtx.h"
+
+1636106922 source:/home/rootkiv/projects/new/src/arch/linux/net_socket.cpp
+	"sdkcommon.h"
+	"../../hal/socket.h"
+	<sys/socket.h>
+	<netinet/in.h>
+	<netinet/tcp.h>
+	<arpa/inet.h>
+	<netdb.h>
+
+1636106922 source:/home/rootkiv/projects/new/src/arch/linux/timer.cpp
+	"arch/linux/arch_linux.h"
+
+1636106922 source:/home/rootkiv/projects/new/src/hal/thread.cpp
+	"sdkcommon.h"
+	"hal/thread.h"
+	"arch/win32/winthread.hpp"
+	"arch/macOS/thread.hpp"
+	"arch/linux/thread.hpp"
+
+1636106922 /home/rootkiv/projects/new/src/arch/win32/winthread.hpp
+	"sdkcommon.h"
+	<process.h>
+
+1636106922 /home/rootkiv/projects/new/src/arch/macOS/thread.hpp
+	"arch/macOS/arch_macOS.h"
+
+1636106922 /home/rootkiv/projects/new/src/arch/linux/thread.hpp
+	"arch/linux/arch_linux.h"
+	<sched.h>
+
