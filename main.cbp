@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="new" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/new" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option parameters="-pthread" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+					<Add directory="src" />
+					<Add directory="src/hal" />
+				</Compiler>
+				<Linker>
+					<Add library="lib/rplidar_driver.lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/new" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="/home/rootkiv/projects/new/" />
+		</Compiler>
+		<Linker>
+			<Add directory="/home/rootkiv/projects/new/" />
+		</Linker>
+		<Unit filename="include/rplidar.h" />
+		<Unit filename="include/rplidar_cmd.h" />
+		<Unit filename="include/rplidar_driver.h" />
+		<Unit filename="include/rplidar_protocol.h" />
+		<Unit filename="include/rptypes.h" />
+		<Unit filename="include/sl_crc.h" />
+		<Unit filename="include/sl_lidar.h" />
+		<Unit filename="include/sl_lidar_cmd.h" />
+		<Unit filename="include/sl_lidar_driver.h" />
+		<Unit filename="include/sl_lidar_driver_impl.h" />
+		<Unit filename="include/sl_lidar_protocol.h" />
+		<Unit filename="include/sl_types.h" />
+		<Unit filename="lib/rplidar_driver.lib" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/arch/linux/arch_linux.h" />
+		<Unit filename="src/arch/linux/net_serial.cpp" />
+		<Unit filename="src/arch/linux/net_serial.h" />
+		<Unit filename="src/arch/linux/net_socket.cpp" />
+		<Unit filename="src/arch/linux/thread.hpp" />
+		<Unit filename="src/arch/linux/timer.cpp" />
+		<Unit filename="src/arch/linux/timer.h" />
+		<Unit filename="src/hal/abs_rxtx.h" />
+		<Unit filename="src/hal/assert.h" />
+		<Unit filename="src/hal/byteops.h" />
+		<Unit filename="src/hal/event.h" />
+		<Unit filename="src/hal/locker.h" />
+		<Unit filename="src/hal/socket.h" />
+		<Unit filename="src/hal/thread.cpp" />
+		<Unit filename="src/hal/thread.h" />
+		<Unit filename="src/hal/types.h" />
+		<Unit filename="src/hal/util.h" />
+		<Unit filename="src/rplidar_driver.cpp" />
+		<Unit filename="src/sdkcommon.h" />
+		<Unit filename="src/sl_crc.cpp" />
+		<Unit filename="src/sl_lidar_driver.cpp" />
+		<Unit filename="src/sl_serial_channel.cpp" />
+		<Unit filename="src/sl_tcp_channel.cpp" />
+		<Unit filename="src/sl_udp_channel.cpp" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
