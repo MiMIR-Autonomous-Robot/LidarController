@@ -1,0 +1,12 @@
+{
+  "files.associations": {
+    "new": "cpp",
+    "iostream": "cpp"
+  },
+  "C_Cpp.formatting": "vcFormat", // (Sets formatting mode to vcFormat)
+  "C_Cpp.vcFormat.newLine.beforeOpenBrace.block": "sameLine",
+  "C_Cpp.vcFormat.newLine.beforeOpenBrace.function": "sameLine",
+  "C_Cpp.vcFormat.newLine.beforeOpenBrace.lambda": "sameLine",
+  "C_Cpp.vcFormat.newLine.beforeOpenBrace.namespace": "sameLine",
+  "C_Cpp.vcFormat.newLine.beforeOpenBrace.type": "sameLine"
+}
